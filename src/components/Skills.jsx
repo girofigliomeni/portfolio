@@ -1,3 +1,10 @@
+/**
+ * @file    Skills.jsx
+ * @author  Girolamo Figliomeni
+ * @date    2026-10-22
+ * @brief   Skills page of the React application.
+ */
+
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import {

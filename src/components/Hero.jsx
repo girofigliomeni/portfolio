@@ -1,3 +1,10 @@
+/**
+ * @file    Hero.jsx
+ * @author  Girolamo Figliomeni
+ * @date    2026-10-22
+ * @brief   Home page of the React application.
+ */
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import hero from "../assets/hero.png";
