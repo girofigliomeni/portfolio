@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Social from "./components/Social";
 
 const App = () => {
   const [mousePosition, setMousePosition] = useState({ x: -100, y: -100 });
@@ -49,6 +50,7 @@ const App = () => {
       <Hero />
       <Skills />
       <Projects />
+      <Social />
     </div>
   );
 };
