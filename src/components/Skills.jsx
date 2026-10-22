@@ -13,10 +13,13 @@ import {
 } from "react-icons/fa";
 import {
   SiFirebase,
+  SiFlutter,
   SiGraphql,
   SiMongodb,
   SiNextdotjs,
+  SiSupabase,
   SiTailwindcss,
+  SiVercel,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -31,7 +34,7 @@ const Skills = () => {
       skills: [
         { name: "JavaScipt", icon: FaJs, color: "#F7DF1F" },
         { name: "React", icon: FaReact, color: "#61DAFB" },
-        { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+        { name: "Flutter", icon: SiFlutter, color: "#08589C" },
         { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
       ],
     },
@@ -40,9 +43,9 @@ const Skills = () => {
       icon: FaCog,
       skills: [
         { name: "Node.js", icon: FaNodeJs, color: "#339933" },
-        { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+        { name: "Supabase", icon: SiSupabase, color: "#47A248" },
         { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
-        { name: "GraphQL", icon: SiGraphql, color: "#E10098" },
+        { name: "Vercel", icon: SiVercel, color: "#FFFFFF" },
       ],
     },
     tools: {
@@ -50,7 +53,7 @@ const Skills = () => {
       icon: FaCode,
       skills: [
         { name: "Git", icon: FaGitAlt, color: "#F05032" },
-        { name: "GitHub", icon: FaGithub, color: "#181717" },
+        { name: "GitHub", icon: FaGithub, color: "#FFFFFF" },
         { name: "Figma", icon: FaFigma, color: "#F24E1E" },
         { name: "WordPress", icon: FaWordpress, color: "#21759B" },
       ],
