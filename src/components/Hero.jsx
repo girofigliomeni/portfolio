@@ -9,7 +9,12 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import hero from "../assets/hero.png";
 
-const words = ["Developer", "Software Engineer", "Designer", "Creator"];
+const words = [
+  "Web Developer",
+  "Software Engineer",
+  "System Designer",
+  "Digital Creator",
+];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);
