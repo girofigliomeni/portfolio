@@ -1,3 +1,10 @@
+/**
+ * @file    Navbar.jsx
+ * @author  Girolamo Figliomeni
+ * @date    2026-10-22
+ * @brief   Navigation bar component of the React application.
+ */
+
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 

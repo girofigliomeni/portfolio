@@ -1,8 +1,16 @@
+/**
+ * @file    App.jsx
+ * @author  Girolamo Figliomeni
+ * @date    2026-10-22
+ * @brief   Root component of the React application.
+ */
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [mousePosition, setMousePosition] = useState({ x: -100, y: -100 });
@@ -40,6 +48,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
+      <Projects />
     </div>
   );
 };
