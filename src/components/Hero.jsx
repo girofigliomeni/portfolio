@@ -83,12 +83,12 @@ const Hero = () => {
             className="text-zinc-300 text-sm sm:text-base
             lg:text-lg font-medium mb-1 sm:mb-2 tracking-wide"
           >
-            Girolamo Figliomeni{""}
+            Girolamo{" "}
             <span
               className="text-yellow-400 
             font-bold"
             >
-              .
+              Figliomeni
             </span>
           </motion.p>
           <motion.h1
