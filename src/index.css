@@ -7,3 +7,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@layer components {
+  .portfolio-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-transparent px-8 py-3 text-sm font-semibold leading-5 transition-all duration-300 cursor-pointer;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .portfolio-button:focus-visible {
+    outline: 2px solid var(--color-yellow-400);
+    outline-offset: 4px;
+  }
+}
