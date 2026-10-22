@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 const App = () => {
   const [mousePosition, setMousePosition] = useState({ x: -100, y: -100 });
@@ -38,6 +39,7 @@ const App = () => {
       </motion.div>
       <Navbar />
       <Hero />
+      <Skills />
     </div>
   );
 };

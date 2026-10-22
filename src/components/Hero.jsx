@@ -116,6 +116,37 @@ const Hero = () => {
               ></span>
             </div>
           </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-zinc-400 text-lg max-w-xl font-light
+            font-ubuntu leading-relaxed my-2 sm:my-4 px-2 sm:px-0"
+          >
+            Honours Bachelor of Science in Computer Science from Lakehead
+            University and experienced in developing web applications using
+            modern technologies.
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="flex flex-wrap gap-3 sm:gap-4 mt-5
+          sm:mt-2 justify-center lg:justify-start"
+          >
+            <a
+              href="#contact"
+              className="portfolio-button bg-yellow-400 text-zinc-950 hover:scale-105"
+            >
+              Contact Me
+            </a>
+            <a
+              href="#projects"
+              className="portfolio-button border-yellow-400/80 text-yellow-400 hover:scale-105"
+            >
+              My Projects
+            </a>
+          </motion.div>
         </div>
       </div>
     </section>
